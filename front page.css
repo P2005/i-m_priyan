@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav {
     background-color: #ff5733; 
@@ -90,5 +91,11 @@ footer {
     font-size: 25px;
     align-items: center;
     justify-content: center;
+  }
+  @media screen and (max-width :800px) {
+    .body{
+      width: 100%;
+      padding: 0;
+    }
   }
   
